@@ -14,13 +14,13 @@
 		AF31589B2BC338EB00FD070C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF31589A2BC338EB00FD070C /* Model.swift */; };
 		AF31589F2BC3400E00FD070C /* DetailsArticleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF31589E2BC3400E00FD070C /* DetailsArticleController.swift */; };
 		AF3158A12BC354A300FD070C /* FavouritesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3158A02BC354A300FD070C /* FavouritesController.swift */; };
-		AF3158A42BC3556300FD070C /* FavouritesArticles.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AF3158A22BC3556200FD070C /* FavouritesArticles.xcdatamodeld */; };
 		AF3158AC2BC356D600FD070C /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3158AB2BC356D600FD070C /* StorageManager.swift */; };
 		AF3158B52BC357E600FD070C /* FavouriteArticle+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3158B42BC357E600FD070C /* FavouriteArticle+CoreDataProperties.swift */; };
 		AF3158B72BC3735E00FD070C /* DetailsFavouriteArticleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3158B62BC3735E00FD070C /* DetailsFavouriteArticleController.swift */; };
 		AF3158BD2BC398D600FD070C /* HandleErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3158BC2BC398D600FD070C /* HandleErrors.swift */; };
 		AF3158BF2BC3999C00FD070C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3158BE2BC3999C00FD070C /* Extensions.swift */; };
 		AF3158C12BC3A3DC00FD070C /* MostPopularArticles.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3158C02BC3A3DC00FD070C /* MostPopularArticles.swift */; };
+		AF3158C72BC5302F00FD070C /* FavouritesArticles.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AF3158A22BC3556200FD070C /* FavouritesArticles.xcdatamodeld */; };
 		AF4F55E22BC17C7E004F8D12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4F55E12BC17C7E004F8D12 /* AppDelegate.swift */; };
 		AF4F55E42BC17C7E004F8D12 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4F55E32BC17C7E004F8D12 /* SceneDelegate.swift */; };
 		AF4F55E92BC17C7E004F8D12 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = AF4F55E82BC17C7E004F8D12 /* Base */; };
@@ -31,19 +31,19 @@
 
 /* Begin PBXFileReference section */
 		2E7B82DB272964EB229802A3 /* Pods-NYNewsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYNewsApp.release.xcconfig"; path = "Target Support Files/Pods-NYNewsApp/Pods-NYNewsApp.release.xcconfig"; sourceTree = "<group>"; };
-		AF3158922BC3345D00FD070C /* MostViewedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostViewedController.swift; sourceTree = "<group>"; };
-		AF3158942BC3347200FD070C /* MostEmailedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostEmailedController.swift; sourceTree = "<group>"; };
-		AF3158962BC3348100FD070C /* MostSharedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostSharedController.swift; sourceTree = "<group>"; };
-		AF3158982BC338D000FD070C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		AF3158922BC3345D00FD070C /* MostViewedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MostViewedController.swift; path = Controllers/MostViewedController.swift; sourceTree = "<group>"; };
+		AF3158942BC3347200FD070C /* MostEmailedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MostEmailedController.swift; path = Controllers/MostEmailedController.swift; sourceTree = "<group>"; };
+		AF3158962BC3348100FD070C /* MostSharedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MostSharedController.swift; path = Controllers/MostSharedController.swift; sourceTree = "<group>"; };
+		AF3158982BC338D000FD070C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Utilities/Constants.swift; sourceTree = "<group>"; };
 		AF31589A2BC338EB00FD070C /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
-		AF31589E2BC3400E00FD070C /* DetailsArticleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsArticleController.swift; sourceTree = "<group>"; };
-		AF3158A02BC354A300FD070C /* FavouritesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesController.swift; sourceTree = "<group>"; };
+		AF31589E2BC3400E00FD070C /* DetailsArticleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailsArticleController.swift; path = Controllers/DetailsArticleController.swift; sourceTree = "<group>"; };
+		AF3158A02BC354A300FD070C /* FavouritesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FavouritesController.swift; path = Controllers/FavouritesController.swift; sourceTree = "<group>"; };
 		AF3158A32BC3556300FD070C /* FavouritesArticles.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FavouritesArticles.xcdatamodel; sourceTree = "<group>"; };
-		AF3158AB2BC356D600FD070C /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
-		AF3158B42BC357E600FD070C /* FavouriteArticle+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "FavouriteArticle+CoreDataProperties.swift"; path = "NYNewsApp/FavouriteArticle+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		AF3158B62BC3735E00FD070C /* DetailsFavouriteArticleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsFavouriteArticleController.swift; sourceTree = "<group>"; };
-		AF3158BC2BC398D600FD070C /* HandleErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandleErrors.swift; sourceTree = "<group>"; };
-		AF3158BE2BC3999C00FD070C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		AF3158AB2BC356D600FD070C /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StorageManager.swift; path = CoreData/StorageManager.swift; sourceTree = "<group>"; };
+		AF3158B42BC357E600FD070C /* FavouriteArticle+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "FavouriteArticle+CoreDataProperties.swift"; path = "NYNewsApp/DataModel/FavouriteArticle+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		AF3158B62BC3735E00FD070C /* DetailsFavouriteArticleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailsFavouriteArticleController.swift; path = Controllers/DetailsFavouriteArticleController.swift; sourceTree = "<group>"; };
+		AF3158BC2BC398D600FD070C /* HandleErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HandleErrors.swift; path = Utilities/HandleErrors.swift; sourceTree = "<group>"; };
+		AF3158BE2BC3999C00FD070C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Controllers/Extensions.swift; sourceTree = "<group>"; };
 		AF3158C02BC3A3DC00FD070C /* MostPopularArticles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostPopularArticles.swift; sourceTree = "<group>"; };
 		AF4F55DE2BC17C7E004F8D12 /* NYNewsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NYNewsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF4F55E12BC17C7E004F8D12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -299,13 +299,13 @@
 				AF3158AC2BC356D600FD070C /* StorageManager.swift in Sources */,
 				AF3158932BC3345D00FD070C /* MostViewedController.swift in Sources */,
 				AF3158BD2BC398D600FD070C /* HandleErrors.swift in Sources */,
+				AF3158C72BC5302F00FD070C /* FavouritesArticles.xcdatamodeld in Sources */,
 				AF3158B72BC3735E00FD070C /* DetailsFavouriteArticleController.swift in Sources */,
 				AF3158B52BC357E600FD070C /* FavouriteArticle+CoreDataProperties.swift in Sources */,
 				AF3158952BC3347200FD070C /* MostEmailedController.swift in Sources */,
 				AF4F55E42BC17C7E004F8D12 /* SceneDelegate.swift in Sources */,
 				AF3158972BC3348100FD070C /* MostSharedController.swift in Sources */,
 				AF3158BF2BC3999C00FD070C /* Extensions.swift in Sources */,
-				AF3158A42BC3556300FD070C /* FavouritesArticles.xcdatamodeld in Sources */,
 				AF3158A12BC354A300FD070C /* FavouritesController.swift in Sources */,
 				AF3158992BC338D000FD070C /* Constants.swift in Sources */,
 				AF31589F2BC3400E00FD070C /* DetailsArticleController.swift in Sources */,
